@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow"/>
+   
+    <link rel="stylesheet" href="fuentes/estilosCV.css">
+    <link rel="icon" type="image/x-icon" href="/imagenes/faviconV2.png">
+    <link rel="stylesheet" href="fuentes/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <title>Jorge González</title>
+</head>
+<body>
+    <header>
+        <h1>Jorge González</h1>
+    </header>
+      
+    <h2 id="Jefe_Expedición">Jefe de Expedición</h2>
+
+    <p id="barra-colores-1"></p>
+ 
+    <div class="Datos">
+
+        <img src="imagenes/fotoCV.jpg" alt="Foto de Perfil de CV" id="imagen-CV">
+
+    <h2><i class="fa-solid fa-circle-user"></i> Datos Personales</h2>
+    <ul>
+        <li>Fecha de Nacimiento: 05-12-1984</li>
+        <li>Nacionalidad: Argentino</li>
+        <li>Lugar de Residencia: Rosario, Argentina</li>
+        <li>Estado Civil: Soltero</li>
+    
+        <footer>
+          
+            <button id="Contacto" onclick="MostrarTelefono()">Contacto</button>
+            <p id="telefono"></p>
+        
+            <script>
+                 function MostrarTelefono(){
+                    document.getElementById("telefono").innerHTML = "3415000000 // jorgegonzalez1984@gmail.com";
+                 }
+            </script>
+        
+        </footer>
+        <p id="barra-colores-3"></p>
+    </ul>
+  
+        
+    <h2><i class="fa-solid fa-palette"></i> Habilidades</h2>
+    <ul>
+        <li>Inglés Avanzado (Oral y Escrito)</li>
+        <li>Usuario de Windows Avanzado</li>
+        <li>Usuario de Microsoft Office Avanzado</li>
+        <li>Conocimiento de software de Gestión de Almacenes (AS/400 - Warehouse BOSS)</li>
+        <li>Licencia de Conductor B1 (Vehículo propio modelo 2019, nafta)</li>
+    </ul>
+
+    <h2><i class="fa-solid fa-graduation-cap"></i> Educación</h2> 
+    <ul>
+        
+        <li>Licenciatura en Gestión De Operaciones y Logística. 2012. UNR.</li>
+        <li>Técnico Superior en Ornganización Industrial. 2006. UNR.</li>
+        <li>Instituto Polítécnico Superior General San Martín. Técnico Electrónico. 2002. UNR.</li>
+    </ul>
+    
+    <h2><i class="fa-solid fa-certificate"></i> Certificaciones y Cursos</h2>
+    <ul>
+        <li>Actualización en Logística (2014). 
+            <button onclick="window.open('/imagenes/Actualización en Logística.pdf')" 
+            id="Boton-Certificado-1">Mostrar Certificado</button>
+        </li>
+        <li>Gestión de almacenes - Herramientas y software (2016) 
+            <button onclick="window.open('./imagenes/Gestión de Almacenes.pdf')" 
+            id="Boton-Certificado-2">Mostrar Certificado</button>
+        </li>
+    </ul>
+
+    <p id="barra-colores-3"></p>
+
+    <h2><i class="fa-solid fa-briefcase"></i> Experiencia Laboral</h2>
+    <ol>
+        <li>
+            <h3>Jefe de Expedición (2018 - Actualidad)</h3>
+            <h4>Rubén Fernández e Hijos S.A.</h4>
+            <ul>
+                <li>Responsables de Expedición de pedidos</li>
+                <li>Responsables de Control de Inventario</li>
+                <li>Gestión de Cuadro de Mando de Indicadores</li>
+                <li>Responsables de Control de Calidad</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Supervisor de Logística (2012 - 2018)</h3>
+            <h4>Maquinarias y Equipos Industriales Rosario</h4>
+            <ul>
+                <li>Control de Ingreso y Egreso de Flota</li>
+                <li>Responsables de equipo de Expedición</li>
+                <li>Responsables de control de pedidos</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Líder de Expedición (2009 - 2012)</h3>
+            <h4>Produtodo SRL</h4>
+            <ul>
+                <li>Control de Egreso de productos terminados</li>
+                <li>Control de Calidad de pedidos</li>
+                <li>Supervisión de equipo de Expedición</li>
+                
+            </ul>
+        </li>
+    </ol>
+
+</div>
+<p id="barra-colores-2"></p>
+</body>
+
+
+</html>
